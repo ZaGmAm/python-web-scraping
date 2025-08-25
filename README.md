@@ -14,19 +14,16 @@
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/Zedmlu/python-web-scraping.git
-Установите необходимые зависимости:
-
+2. Установите необходимые зависимости:
 bash
 pip install requests beautifulsoup4
-Создайте файл config.py и добавьте туда ваши заголовки:
-
-python
+3. Создайте файл config.py и добавьте туда ваши заголовки:
 HEADERS = {
     "User-Agent": "Your User-Agent Here"
 }
-Запустите скрипт:
+4. Запустите скрипт:
 
-bash
+```bash
 python habr_vacancies.py
 Пример вывода
 
